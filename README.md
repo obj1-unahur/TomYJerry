@@ -35,26 +35,22 @@ Nota: Acá se trabaja polimorfismo, ordenes, consulta y estado del objeto.
 - si jerry cumple años (3 años de edad), y luego tom lo vuelve a comer, pasaría a tener 25.9 (su energia es 209)  
 - si corre 38 metros su velocidad pasa a ser 24 (su energia es 190)
 
-## Parte 2:  Poder y Querer comer.
+## Parte 2:  Poder comer y Cazar.
 
 Se agrega como requerimientos 
-* Saber si tom puede comer un ratón que está a cierta distancia (indicando la distancia)
-* Saber si tom quiere comer un ratón que está a cierta distancia (indicando el ratón y la distancia)
+* Saber si tom puede cazar un ratón que está a cierta distancia (indicando la distancia)
+* Cazar un ratón que está a cierta distancia (indicando el ratón y la distancia)
 
-Puede comer si tiene energía suficiente para recorrer esa distancia. Es
+Puede cazar si tiene energía suficiente para recorrer esa distancia. Es
 decir, la energía que gastaría en correr la distancia es menor a su propia
-energía
+energía.
 
-Tom quiere comer un ratón que está a cierta distancia si puede comerlo 
-(punto anterior) y además  la energía que va a gastar en correr 
-la distancia hasta el ratón es menor a la energía que va a recibir 
-por comérselo.
+Cazar un ratón si puede, y hacer que lo coma.
 
 Nota: Acá se busca ser capaz de evitar la duplicación de código (subtareas), 
-y manejar correctamente métodos booleanos de consulta
+y manejar correctamente métodos booleanos de consulta.
 
 ### Casos de prueba
 
-- Al inicio, Tom no puede comer a Jerry si está a 120 metros (ya que gastaría 60 
-de energía y solo tiene 50), tampoco quiere comerlo porque no puede.
+- Desarrollar distintos casos de prueba para demostrar que funcionan correctamente los métodos.
 
